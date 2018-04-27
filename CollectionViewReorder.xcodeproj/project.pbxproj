@@ -13,6 +13,7 @@
 		2872B12B20934A97007F5967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2872B12A20934A97007F5967 /* Assets.xcassets */; };
 		2872B12E20934A97007F5967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2872B12C20934A97007F5967 /* LaunchScreen.storyboard */; };
 		2872B13120934A97007F5967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2872B13020934A97007F5967 /* main.m */; };
+		2872B13920934ACA007F5967 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2872B13820934ACA007F5967 /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2872B12D20934A97007F5967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2872B12F20934A97007F5967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2872B13020934A97007F5967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2872B13720934ACA007F5967 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2872B13820934ACA007F5967 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				2872B12C20934A97007F5967 /* LaunchScreen.storyboard */,
 				2872B12F20934A97007F5967 /* Info.plist */,
 				2872B13020934A97007F5967 /* main.m */,
+				2872B13720934ACA007F5967 /* CollectionViewCell.h */,
+				2872B13820934ACA007F5967 /* CollectionViewCell.m */,
 			);
 			path = CollectionViewReorder;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				2872B12620934A96007F5967 /* ViewController.m in Sources */,
 				2872B13120934A97007F5967 /* main.m in Sources */,
+				2872B13920934ACA007F5967 /* CollectionViewCell.m in Sources */,
 				2872B12320934A96007F5967 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
