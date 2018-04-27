@@ -15,8 +15,8 @@
 
 3、如果满足标志位
 
-dispatch_async(dispatch_get_main_queue(), ^{
+            dispatch_async(dispatch_get_main_queue(), ^{
 
             [self.collectionView reloadData];
 
-});
+              });
